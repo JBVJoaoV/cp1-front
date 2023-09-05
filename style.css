@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(184, 181, 181);
+    position: relative;
+    width: 62%;
+    height: 100px;
+    border-bottom: solid purple 4px;
+    max-width: 800px;
+}
+
+.title{
+    margin: 100px;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 60%;
+    height: 325px;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: 4px;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background: #08198273;
+}
+
+figure figcaption p {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+
+
+section summary{
+    background-color: gray;
+    width: 800px;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    padding: 13px;
+}
