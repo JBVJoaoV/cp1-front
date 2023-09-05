@@ -51,17 +51,22 @@ figure figcaption p {
   color: #fff;
 }
 
-
-
 section summary{
     background-color: gray;
-    width: 800px;
+    width: 780px;
+    margin-left: 260px;
+}
+
+.lista{
+    margin-left: 260px;
 }
 
 footer{
     background-color: black;
     height: 50px;
     text-align: center;
+    width: 780PX;
+    margin-left: 260PX;
 }
 
 footer p{
